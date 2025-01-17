@@ -3,10 +3,10 @@
 - main : 나라장터 데이터를 크롤링하고 처리하여 분석 결과를 저장하는 전체 흐름을 관리하는 함수
 '''
 
-from nara_auto.crawler import check_and_select_mode, update_mode
-from nara_auto.data_handler import calcul_winrate, filtering_underone, rankclass, get_final_df
-from nara_auto.company_info import get_companyinfo, filtering_data
-from nara_auto.spatial_analysis import matching_boundary, calcul_area, area_merge, save_analysis_result
+from crawler import check_and_select_mode, update_mode
+from data_handler import calcul_winrate, filtering_underone, rankclass, get_final_df
+from company_info import get_companyinfo, filtering_data
+from spatial_analysis import matching_boundary, calcul_area, area_merge, save_analysis_result
 import os
 import sys
 import pandas as pd
