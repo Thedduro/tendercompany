@@ -27,7 +27,7 @@ def filtering_data(old_df, new_df):
 def get_api_info(number):
     company_info = []
    
-    servicekey = 'zSEI5Y%2Bla%2FtbyT5WYBi2Eq2cHlpb9U6r9HMYRWxxSJRj8sK4%2FkS%2FUYB0pLO1i2I7yuJ5C%2BZAQdGAEqdv2QCtLw%3D%3D'
+    servicekey = 'YOUR_SERVICEKEY'
     url = f'http://apis.data.go.kr/1230000/UsrInfoService/getPrcrmntCorpBasicInfo?serviceKey={servicekey}&numOfRows=10&inqryDiv=3&bizno={number}&type=json&pageNo=1'
    
     response = requests.get(url)
